@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Populating the elements with data
     document.querySelector("[data-testid='slackUserName']").textContent = "Bala Ladalo Daniel";
     document.querySelector("[data-testid='slackDisplayImage']").src = "https://ca.slack-edge.com/T05FFAA91JP-U05RG4K9FPF-984bab9f4e6a-512";
-    document.querySelector("[data-testid='slackDisplayImage']").alt = "Ladalo Daniel";
+    document.querySelector("[data-testid='slackDisplayImage']").alt = "Bala Ladalo Daniel";
     document.querySelector("[data-testid='currentDayOfTheWeek']").textContent = getCurrentDayOfTheWeek();
     document.querySelector("[data-testid='currentUTCTime']").textContent = getCurrentUTCTime();
     document.querySelector("[data-testid='myTrack']").textContent = "Frontend";
